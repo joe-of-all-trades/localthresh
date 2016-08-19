@@ -1,6 +1,6 @@
 function imgout = localthresh(img, ssize, msize, sthresh, mthresh, varargin)
 %LOCALTHRESH performs local adaptive thresholding. 
-%  imgout = localthresh(img, ssize, msize, sweight, mweight) separates 
+%  imgout = localthresh(img, ssize, msize, sthresh, mthresh) separates 
 %  foreground from background using local mean and standard deviation.
 %  ssize is neighborhood size for calculating standard deviation and must
 %  be an odd number. msize is neighborhood size for calculating mean. 
